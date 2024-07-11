@@ -32,6 +32,8 @@ export default function HomeScreen({navigation})
           <Button title="Test Your Knowledge" onPress={() => navigation.navigate('Test')} />
           <View style={styles.space} />
           <Button title="Review" onPress={() => navigation.navigate('Review')} />
+          <View style={styles.space} />
+          <Button title="Tic Tac Toe" onPress={() => navigation.navigate('React Tutorial')} />
         </View>
       </View>);
 }

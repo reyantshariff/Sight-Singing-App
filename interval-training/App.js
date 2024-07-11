@@ -6,7 +6,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import HomeScreen from './screens/HomeScreen';
 import ReviewMode from './screens/ReviewMode'
 import TestMode from './screens/TestMode';
-import ReactTutorial from './screens/TestMode';
+import ReactTutorial from './screens/ReactTutorial';
 
 const Stack = createNativeStackNavigator();
 
@@ -22,4 +22,3 @@ export default function App() {
       </NavigationContainer>
   );
 }
-
