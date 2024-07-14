@@ -10,19 +10,22 @@ const TrainerButton = ({onPress, title}) =>
             </TouchableOpacity>
         )
     }
+
 const styles = StyleSheet.create({
     button: 
     {
       paddingVertical: 12,
       paddingHorizontal: 32,
-      justifyContent: 'centeri',
-      borderRadius: 30,
+      justifyContent: 'space-around',
+      borderRadius: 100,
       alignItems: 'center',
+      backgroundColor: 'blue',
+      position: 'fixed',
     },
     Text: 
     {
-        color: 'blue',
+        color: 'white',
         fontsize: 16,
-    }
+    },
   });
 export default TrainerButton;
