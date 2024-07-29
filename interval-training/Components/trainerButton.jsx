@@ -1,12 +1,11 @@
 import React from 'react';
 import { StyleSheet, Text, View, TouchableOpacity} from 'react-native';
-import { Button } from 'react-native';
 
 const TrainerButton = ({onPress, title}) => 
     {
         return(
             <TouchableOpacity style = {styles.button} onPress = {onPress}>
-                <Text style={styles.Text}>{title}</Text>
+                <Text style={styles.Text} numberOfLines={1}>{title} </Text>
             </TouchableOpacity>
         )
     }
@@ -17,7 +16,9 @@ const styles = StyleSheet.create({
       paddingVertical: 12,
       paddingHorizontal: 32,
       justifyContent: 'space-around',
-      borderRadius: 100,
+      borderRadius: 45,
+      width: 90,
+      height: 90,
       alignItems: 'center',
       backgroundColor: 'blue',
       position: 'fixed',
@@ -25,7 +26,7 @@ const styles = StyleSheet.create({
     Text: 
     {
         color: 'white',
-        fontsize: 16,
+        fontSize: 9,
     },
   });
 export default TrainerButton;

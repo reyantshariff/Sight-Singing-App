@@ -12,7 +12,6 @@ export default function ReviewMode({ navigation }) {
   return (
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'top' }}>
       <Text>Review Mode</Text>
-      <TrainerButton onPress={onPress} title="Begin" />
     </View>
   );
 }
